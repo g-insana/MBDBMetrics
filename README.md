@@ -18,6 +18,10 @@ In particular plots will be generated that
 - group publications by the grant agency they acknowledge
 - find in which section of a publication a resource is mentioned.
 
+# Installation
+
+Clone this repository or simply download the [MBDBMetrics jupyter notebook](./UniProt_MBDBMetrics.ipynb) and run it in your jupyter server. The file [requirements.txt](./requirements.txt) lists the libraries that need to be installed (i.e. ipywidgets, pandas, plotly, requests, tqdm).
+
 # Instructions
 
 Start by executing BOTH the (⏵︎) **Code** and the **Parameters** cells (wherein you can specify what to query for).
