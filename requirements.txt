@@ -1,0 +1,5 @@
+ipywidgets
+pandas
+plotly
+requests
+tqdm
