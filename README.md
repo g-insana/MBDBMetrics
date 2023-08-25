@@ -39,10 +39,34 @@ If this is your first time using an interactive notebook or colab, you may want 
     2023.03.15 improved plot interface, also with possibility to draw on plots; plots can be saved with meaningful filenames; added retrieval of patent information from SureChEMBL
     2023.03.16 added retrieval of total patents in timeframe; added progress bars and error messages if Code has not been initialised
     2023.06.27 changed to ascii progress bar to avoid incompatibility with plotly display
-    2023.08.25 converted from [colab version](https://colab.research.google.com/drive/1aEmSQR9DGQIZmHAIuQV9mLv7Mw9Ppkin) to run independently as jupyter notebook
+    2023.08.25 converted from colab version to run independently as jupyter notebook
+
+### Link to Google Colab version
+
+The notebook was originally published as a [colab](https://colab.research.google.com/drive/1aEmSQR9DGQIZmHAIuQV9mLv7Mw9Ppkin)
 
 ### Credits:
 
 Code by Alex Bateman, Alex Ignatchenko and Giuseppe Insana
 
 © 2023- [UniProt consortium](https://www.uniprot.org/help/about)
+
+### Sample plots
+
+The current version of MDBDMetrics generates the following plots:
+- Total results (number of papers and number of patents mentioning the specified resource, in the specified time frame and/or acknowledging a certain funding agency). This graph gives an overview of the major metrics calculated by this tool.
+![totals](img/totals.png)
+
+- Publication mentions by year (number of papers mentioning the resource for each year in the specified range, with or without acknowledging a specified funding agency).
+![by_year](img/by_year.png)
+![by_year_grant](img/by_year_grant.png)
+
+- Publication mentions by grant agency (a total of 28 funding agencies are currently defined, but again, it is easy to modify the code to change or extend this set). This plot enables an understanding of the relative use of a resource by fundees of different agencies.
+![by_grant_agency](img/by_grant_agency.png)
+
+- Publication mentions by paper section (18 paper sections are defined).  This graph can be useful to highlight for example whether a resource is mostly mentioned in the Methods rather than in the Discussion or in the Abstract of publications.
+![by_paper_section](img/by_paper_section.png)
+
+- Patent mentions by year (number of patents mentioning the specified resource in the specified time frame). This graph can help to understand how a resource is used in records of new inventions and give a glimpse of industrial use.
+![patents_by_year](img/patents_by_year.png)
+
