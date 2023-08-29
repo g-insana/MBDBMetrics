@@ -61,7 +61,7 @@ The current version of MDBDMetrics generates the following plots:
 ![by_year](img/by_year.png)
 ![by_year_grant](img/by_year_grant.png)
 
-- Publication mentions by grant agency (a total of 28 funding agencies are currently defined, but again, it is easy to modify the code to change or extend this set). This plot enables an understanding of the relative use of a resource by fundees of different agencies.
+- Publication mentions by grant agency (a total of 28 funding agencies are currently defined but, again, it is easy to modify the code to change or extend this set). This plot enables an understanding of the relative use of a resource by fundees of different agencies.
 ![by_grant_agency](img/by_grant_agency.png)
 
 - Publication mentions by paper section (18 paper sections are defined).  This graph can be useful to highlight for example whether a resource is mostly mentioned in the Methods rather than in the Discussion or in the Abstract of publications.
@@ -70,3 +70,8 @@ The current version of MDBDMetrics generates the following plots:
 - Patent mentions by year (number of patents mentioning the specified resource in the specified time frame). This graph can help to understand how a resource is used in records of new inventions and give a glimpse of industrial use.
 ![patents_by_year](img/patents_by_year.png)
 
+### Tips
+
+- Add your own query search terms: simply modify the `options` array in the `query_widget = widgets.Dropdown` definition.
+- Add more funding agencies: simply modify the `options` array in the `granters_widget = widgets.Dropdown(` definition.
+- Export all generated plots as svg (Scalable Vector Graphics format): look for `plotly_config` at the beginning of the Code cell and three lines below that change from `'format': 'png'` to `'format': 'svg'`. Once that is done and the cell re-run, the *Download plots as* button in the plot interface (the camera icon) will allow to export the plots in svg format.
