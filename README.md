@@ -73,5 +73,5 @@ The current version of MDBDMetrics generates the following plots:
 ### Tips
 
 - Add your own query search terms: simply modify the `options` array in the `query_widget = widgets.Dropdown` definition.
-- Add more funding agencies: simply modify the `options` array in the `granters_widget = widgets.Dropdown(` definition.
+- Add more funding agencies: simply modify the `options` array in the `granters_widget = widgets.Dropdown` definition.
 - Export all generated plots as svg (Scalable Vector Graphics format): look for `plotly_config` at the beginning of the Code cell and three lines below that change from `'format': 'png'` to `'format': 'svg'`. Once that is done and the cell re-run, the *Download plots as* button in the plot interface (the camera icon) will allow to export the plots in svg format.
