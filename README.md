@@ -7,7 +7,7 @@ At [UniProt](https://uniprot.org) we have developed some useful metrics over the
 This page allows you to investigate how often a resource is mentioned in the full text literature and how often it is mentioned in papers that cite specific funding sources. You need not limit yourself to only looking at database resources. You can use any keywords to investigate the impact of experimental techniques or anything else you can think of.
 
 If you have specific feedback on this notebook then please contact Alex Bateman (<agb@ebi.ac.uk>).
-We would like to fund the fantastic work of [Europe PubMed Central](https://europepmc.org/) and [ChEMBL](https://www.ebi.ac.uk/chembl/) for making the APIs that power much of this page.
+We would like to thank the fantastic work of [Europe PubMed Central](https://europepmc.org/) and [ChEMBL](https://www.ebi.ac.uk/chembl/) for making the APIs that power much of this page.
 
 
 ## Contents
