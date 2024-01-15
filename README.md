@@ -75,3 +75,25 @@ The current version of MDBDMetrics generates the following plots:
 - Add your own query search terms: simply modify the `options` array in the `query_widget = widgets.Dropdown` definition.
 - Add more funding agencies: simply modify the `options` array in the `granters_widget = widgets.Dropdown` definition.
 - Export all generated plots as svg (Scalable Vector Graphics format): look for `plotly_config` at the beginning of the Code cell and three lines below that change from `'format': 'png'` to `'format': 'svg'`. Once that is done and the cell re-run, the *Download plots as* button in the plot interface (the camera icon) will allow to export the plots in svg format.
+
+### Citation
+
+If you find this software useful, please consider citing the [journal article](https://doi.org/10.1093/bioadv/vbad180) ([pubmed 38130879](https://pubmed.ncbi.nlm.nih.gov/38130879)):
+
+Bibtex:
+```
+@article{10.1093/bioadv/vbad180,
+    author = {Insana, Giuseppe and Ignatchenko, Alex and Martin, Maria and Bateman, Alex and UniProt Consortium },
+    title = "{MBDBMetrics: an online metrics tool to measure the impact of biological data resources}",
+    journal = {Bioinformatics Advances},
+    volume = {3},
+    number = {1},
+    pages = {vbad180},
+    year = {2023},
+    month = {12},
+    issn = {2635-0041},
+    doi = {10.1093/bioadv/vbad180},
+    url = {https://doi.org/10.1093/bioadv/vbad180},
+    eprint = {https://academic.oup.com/bioinformaticsadvances/article-pdf/3/1/vbad180/54717401/vbad180.pdf},
+}
+```
