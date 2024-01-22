@@ -40,6 +40,10 @@ If this is your first time using an interactive notebook or colab, you may want 
     2023.03.16 added retrieval of total patents in timeframe; added progress bars and error messages if Code has not been initialised
     2023.06.27 changed to ascii progress bar to avoid incompatibility with plotly display
     2023.08.25 converted from colab version to run independently as jupyter notebook
+    2023.09.14 added downloadable list of API url links for totals of publication mentions
+    2023.11.03 added possibility to specify custom comma separated lists of granters
+    2023.11.13 expanded list of granters in dropdown, added link to a list of the top 1000 ones
+    2024.01.22 updated to new SureCHEMBL API for retrieving patent data
 
 ### Link to Google Colab version
 
