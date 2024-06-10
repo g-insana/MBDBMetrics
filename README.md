@@ -86,6 +86,12 @@ The current version of MDBDMetrics generates the following plots:
 
 If you find this software useful, please consider citing the [journal article](https://doi.org/10.1093/bioadv/vbad180) ([pubmed 38130879](https://pubmed.ncbi.nlm.nih.gov/38130879)):
 
+```
+Insana, G., Ignatchenko, A., Martin, M., Bateman, A. & UniProt Consortium
+MBDBMetrics: an online metrics tool to measure the impact of biological data resources.
+Bioinformatics Advances (2023). https://doi.org/10.1093/bioadv/vbad180
+```
+
 Bibtex:
 ```
 @article{10.1093/bioadv/vbad180,
@@ -97,6 +103,7 @@ Bibtex:
     pages = {vbad180},
     year = {2023},
     month = {12},
+    abstract = "{There now exist thousands of molecular biology databases covering every aspect of biological data. This database infrastructure takes significant effort and funding to develop and maintain. The creators of these databases need to make strong justifications to funders to prove their impact or importance. There are many publication metrics and tools available such as Google Scholar to measure citation impact or AltMetrics covering multiple measures including social media coverage.In this article, we describe a series of novel impact metrics that have been applied initially to the UniProt database, and now made available via a Google Colab to enable any molecular biology resource to gain several additional metrics. These metrics, powered by freely available APIs from Europe PubMedCentral and SureCHEMBL cover mentions of the resource in full text articles, including which section of the paper the mention occurs in, grant acknowledgements and mentions in patent applications. This tool, that we call MBDBMetrics, is a useful adjunct to existing tools.The MBDBMetrics tool is available at the following locations: https://colab.research.google.com/drive/1aEmSQR9DGQIZmHAIuQV9mLv7Mw9Ppkin and https://github.com/g-insana/MBDBMetrics.}",
     issn = {2635-0041},
     doi = {10.1093/bioadv/vbad180},
     url = {https://doi.org/10.1093/bioadv/vbad180},
